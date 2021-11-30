@@ -1,0 +1,7 @@
+This needs a decent version of python to compile.  Use the package
+manager:
+    export PSPKG_RELEASE=controls-0.1.11
+    export PSPKG_ROOT=/reg/g/pcds/pkg_mgr
+    source $PSPKG_ROOT/etc/setenv.sh
+
+There is probably a good version in conda as well, but for now...
