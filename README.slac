@@ -5,3 +5,10 @@ manager:
     source $PSPKG_ROOT/etc/setenv.sh
 
 There is probably a good version in conda as well, but for now...
+
+----------------------------------------------
+As a result of this, epics-release always fails.  We can build manually,
+but then need to run:
+    chmod 0444 `find . -name .git -prune -o -type f`
+    chmod 0775 `find . -name .git -prune -o -type d`
+    touch configure/$EPICS_HOST_ARCH/.is_built
