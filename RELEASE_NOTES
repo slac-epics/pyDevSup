@@ -1,0 +1,12 @@
+# ==============================================================================================================
+# Documenting changes that happen locally here at SLAC
+# Naming Convention: base-<community_version_string>-x.y.z
+# x.y.z; major, minor, bug fix locally respectively
+# Incrementing, "y" indicates that we have made minor modification to the original EPICS Community Release.
+# ==============================================================================================================
+
+R1.2-0.0.2: 2022-07-18 Jesse Bellister
+	    Pick up a few changes made to the GitHub project that have not been tagged as a new release
+
+R1.2-0.0.1: 2020-03-19 Hugo Slepicka
+	    First version of pyDevSup with the Git Workflow
