@@ -33,7 +33,7 @@ CROSS_COMPILER_TARGET_ARCHS=rhel6-x86_64 rhel7-x86_64
 #IOCS_APPL_TOP = </IOC/path/to/application/top>
 
 # Default python version.
-PY_VER=2.7
+PY_VER=3.8
 
 # Module will be build against this version of the
 # Python interpreter
