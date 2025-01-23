@@ -5,6 +5,9 @@
 # Incrementing, "y" indicates that we have made minor modification to the original EPICS Community Release.
 # ==============================================================================================================
 
+R1.2-0.1.0: 2025-01-22 Jeremy Lorelli
+        Upgrade to Python 3.10
+
 R1.2-0.0.2: 2022-07-18 Jesse Bellister
 	    Pick up a few changes made to the GitHub project that have not been tagged as a new release
 
